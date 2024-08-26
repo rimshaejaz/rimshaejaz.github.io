@@ -65,6 +65,9 @@
     margin-top: 5%;
   }
 
+  article {
+    margin-bottom: 5% 
+  }
   article.contact-links {
     text-align: center;
     margin-top: 4%;
