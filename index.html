@@ -1,48 +1,194 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Rimsha Ejaz</title>
-    <link rel="icon" href="images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Rimsha Ejaz</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-  </head>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="contact">
+        <a href="https://docs.google.com/document/d/1c_NorqgYBsysrqrWjYAfCnpWutit0Jo2-Gw39bawdCs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <i class="fa-regular fa-file"></i>
+            <span>Resume</span>
+          </a>  
 
-  <body>
-    <nav id="links" class="main-links">
-      <a class="main-links" href="index.html">HOME</a>
-      <a class="main-links" href="project.html">PROJECTS</a>
+        <a href="https://github.com/rimshaejaz" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+      
+        <a href="https://www.linkedin.com/in/rimsha-e-67912b248/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+      
+        <a href="mailto:ejazrimsha76@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+    </div>
   </nav>
-    <header>
-      <h1>Welcome!</h1>
-    </header>
-    <main>
-      <section>
-        <article class="contact-links">
-          <a class="contact" href="https://www.linkedin.com/in/rimsha-e-67912b248/" target="_blank">LINKEDIN</a>
-          <a class="contact" href="https://github.com/rimshaejaz" target="_blank">GITHUB</a>
-          <a class="contact" href="https://docs.google.com/document/d/1c_NorqgYBsysrqrWjYAfCnpWutit0Jo2-Gw39bawdCs/edit?usp=sharing" target="_blank">RESUME</a>
-          <a class="contact" href="mailto:ejazrimsha76@gmail.com" target="_blank">GMAIL</a>
-        </article>
-        <article class="intro-para">
-          <h2 class="intro">A little bit about me</h2>
-          <p class="intro">Hello <span class="wave">👋</span> , I'm Rimsha! </p>
-          <p class="intro">
+
+  <main>
+    <!-- SECTION 1: About me -->
+    <section class="about">
+      <div class="text">
+        <h2>Hi, I'm Rimsha 👋</h2>
+        <p class="intro">
             I'm a dedicated computer science student who is 
             always seeking opportunities to learn and grow my skills. I've created various computer
             science projects that showcase my passion and expertise. You can
             check out some of my exciting projects listed on this website. Feel free to connect with me 
             on LinkedIn or send me a direct message via email! 
           </p>
-        </article>
-      </section>
-    </main>
-    <footer id="footer" class="footer"><p>RIMSHA EJAZ &copy 2024</p></footer>
-  </body>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-pen"></i>
+            <span>Projects</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- <div class="headshot">
+        <img class="headshot" src="images/headshot.png" alt="rimsha headshot">
+      </div> -->
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="cells">
+        <div class="cell">
+            <img src="images/html-logo.webp" alt="html logo">
+            <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+            <img src="images/css-logo.webp" alt="css logo">
+            <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+            <img src="images/javascript-logo.webp" alt="javascript logo">
+            <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+            <img src="images/node-logo.webp" alt="node logo">
+            <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+            <img src="images/react-logo.webp" alt="react logo">
+            <span>React.js</span>
+        </div>
+
+        <div class="cell">
+            <img src="images/flask-logo.png" alt="react logo">
+            <span>Flask</span>
+        </div>
+
+        <div class="cell">
+            <img src="images/python-logo.jpg" alt="react logo">
+            <span>Python</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+
+      <div class="group">
+        <div class="project-details">
+          <p>Hogwarts Library</p>
+          <a class="project" href="https://github.com/rimshaejaz/Hogwarts_Library" target="_blank" rel="noopener noreferrer">Github</a>
+        </div>
+        <div class="text-hogwarts">
+            <ul>
+                <li> 
+                    For a term project, my partner and I designed a web application in Python & Flask using a MySQL databa.
+                    backend for a library management system
+                </li>
+                <li>
+                    I was responsible for engineering code to perform CRUD operations on 3 out of 6 tables, developing the
+                    DML and normalizing the database
+                </li>
+                <li>
+                    Documented the data driven operational goals using narrative, ERD, and Schema model
+                </li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="project-details">
+          <p>Memory Game: Avatar Pairs</p>
+          <a class="project" href="https://github.com/rimshaejaz/memory-game" target="_blank" rel="noopener noreferrer">Github</a>
+          <a class="project" href="https://atla-memory.onrender.com/" target="_blank"  rel="noopener noreferrer">Live</a>
+        </div>
+        <div class="text-memory">
+            <ul>
+                <li> 
+                    Designed a memory game application using React to build the user interface, ensuring a responsive and
+                    interactive experience
+                </li>
+                <li>
+                    Implemented game logic with JavaScript, including features such as card flipping, matching, and score
+                    tracking
+                </li>
+                <li>
+                    Integrated Auth0 for user authentication, allowing secure user login and a personalized game experience
+                </li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="project-details">
+          <p>Learn MERN</p>
+          <a class="project" href="https://learn-mern-with-rimsha.onrender.com/" target="_blank" rel="noopener noreferrer">Live</a>
+        </div>
+        <div class="text-mern">
+            <ul>
+                <li> 
+                    Designed a web application to educate users on website development topics using the MERN stack
+                </li>
+                <li>
+                    Architected a CRUD travel history section enabling users to share, edit, update and delete their travel history
+                    using React with JavaScript
+                </li>
+                <li>
+                    Deployed Node & Express with React to establish the backend server communication for storing and
+                    retrieving travel data, seamlessly serving the client-side frontend from the REST API
+                </li>
+            </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
