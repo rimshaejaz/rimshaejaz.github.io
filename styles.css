@@ -194,7 +194,11 @@
   .projects-section .group .text-hogwarts {
     flex: 8;
     margin-bottom: 70px;
+  }
 
+  .projects-section .group .text-docs {
+    flex: 8;
+    margin-bottom: 70px;
   }
 
   .projects-section .group .text-memory {
